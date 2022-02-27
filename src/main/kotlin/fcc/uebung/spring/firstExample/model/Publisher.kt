@@ -5,7 +5,7 @@ import javax.persistence.JoinColumn
 import javax.persistence.OneToMany
 
 @Entity
-class Publisher(
+data class Publisher(
     val name: String,
     val addressLine1: String,
     val city: String,
